@@ -1,0 +1,163 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    background-color: #4d47ff0c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+    background: #fff;
+    background-image: url(../Assets/Hero-bg.png);
+
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../Assets/Hero-bg.png);
+    padding: 50px;
+    font-size: 65px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.btn {
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 40px;
+  flex-wrap: wrap; 
+  
+}
+.action-text {
+  max-width: 400px;
+}  
+.action-text h2{
+    font-size:42px;
+    font-weight: bold;
+}
+.action-text p{
+    font-size: 24;
+}
+.action img{
+    border-radius: 48px;
+}
+.users {
+  background-color: #e8e6ff;
+  text-align: center;
+  padding: 5px;
+  margin: 100px 100px;
+  border-radius:24px ;
+}
+
+.users-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+  
+}
+.users-grid h3 {
+  color: #5b3dfd;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.rate{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ratings-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.ratings {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 14px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.contact {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #4d47ff00;  
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 97px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.footer {
+  background: #fafafa;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  color: #4E47FF;
+  font-size: 100px;
+}
+
+.footer-links {
+  margin-top: 20px;
+  
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
